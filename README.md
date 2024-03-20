@@ -6,7 +6,7 @@ so be careful.
 
 # Henry's Synthesizer
 
-A simple synthesizer written in C using Portaudio. 
+A simple synthesizer written in C using Portaudio. Right now it's configured to automatically play a 1:2:3:...:21 polyrythm, but it can also be configured to take input from the keyboard.
 
 ## Getting Started
 
