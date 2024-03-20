@@ -1,0 +1,3 @@
+C:/Users/Henry/projects/sound/build/Debug/CMakeFiles/main.dir
+C:/Users/Henry/projects/sound/build/Debug/CMakeFiles/ALL_BUILD.dir
+C:/Users/Henry/projects/sound/build/Debug/CMakeFiles/ZERO_CHECK.dir

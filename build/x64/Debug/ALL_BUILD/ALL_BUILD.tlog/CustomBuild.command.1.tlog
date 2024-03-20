@@ -1,0 +1,10 @@
+^C:\USERS\HENRY\PROJECTS\SOUND\CMAKELISTS.TXT
+setlocal
+C:\libs\cmake\bin\cmake.exe -SC:/Users/Henry/projects/sound -BC:/Users/Henry/projects/sound/build --check-stamp-file C:/Users/Henry/projects/sound/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
